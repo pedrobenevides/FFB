@@ -1,0 +1,11 @@
+﻿<Window x:Class="ProjetoCompiladores.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="393.421" Width="597.368">
+    <Grid>
+        <Button Content="Rodar" Click="ButtonBase_OnClick" Width="150" Height="30" Margin="197,10,192,302"></Button>
+        <DataGrid Name="DgResultado" ItemsSource="{Binding}" Margin="0,72,0,0">
+            
+        </DataGrid>
+    </Grid>
+</Window>

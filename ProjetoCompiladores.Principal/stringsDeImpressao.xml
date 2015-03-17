@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns29:stringsDeImpressao xmlns:jini="http://www.docner.com/jini/basic" xmlns:idf="http://www.docner.com/util/identifiable" xmlns:conf="http://www.docner.com/config" xmlns:persist="http://www.docner.com/persistancy/model" xmlns:cx="http://www.docner.com/cat/xml" xmlns:core="http://www.docner.com/cat/core" xmlns:cd="http://www.docner.com/cat/categorydefinition" xmlns:media="http://www.docner.com/cat/media" xmlns:adm="http://www.docner.com/cat/admin" xmlns:basic="http://www.docner.com/cat/basic" xmlns:cpm="http://www.docner.com/cat/persistancy/model" xmlns:ns13="http://www.docner.com/incrementor/model" xmlns:ns14="http://www.docner.com/incrementor/service" xmlns:ns15="http://www.docner.com/cat/basic/service" xmlns:ns16="http://www.docner.com/cat/categorydefinition/service" xmlns:ns17="http://www.docner.com/cat/xml/service" xmlns:scr="http://www.docner.com/web/cmd/service" xmlns:cmd="http://www.docner.com/web/cmd" xmlns:wms="http://www.docner.com/jini/webmail" xmlns:ns21="http://www.docner.com/auth/impl" xmlns:ns22="http://www.docner.com/auth/model" xmlns:ssp="http://www.docner.com/cat/sync/spider" xmlns:ppl="http://www.docner.com/cat/sync/spider/plugin" xmlns:ssm="http://www.docner.com/cat/sync/spider/model" xmlns:ns26="http://www.docner.com/cat/sync/spider/plugin/deployscript" xmlns:sss="http://www.docner.com/cat/sync/spider/service" xmlns:ns28="http://www.docner.com/cat/auth/model" xmlns:ns29="http://docner.com/showoff/model" xmlns:ns30="http://www.docner.com/util/bundle/model" xmlns:ns31="http://www.docner.com/cat/users/model" xmlns:ns32="http://docner.com/showoff/effect" xmlns:ns33="http://www.docner.com/jini/plugin" xmlns:ns34="http://www.docner.com/cat/view" idEffects="19" idStyleSheet="21" processing="unknown" modifiedat="2014-06-20T16:37:45.171-03:00">
+    <core:label>Palavras Reservadas do C</core:label>
+  
+    <ns29:stringsDeImpressao>
+        
+        <ns29:listaDeStringsDeImpressao>
+            <ns29:palavra>%c</ns29:palavra>
+            <ns29:siginificado>Indica leitura de caractere</ns29:siginificado>       
+        </ns29:listaDeStringsDeImpressao> 
+        
+        <ns29:listaDeStringsDeImpressao>
+            <ns29:palavra>%d</ns29:palavra>
+            <ns29:siginificado>Indica leitura de inteiro</ns29:siginificado>       
+        </ns29:listaDeStringsDeImpressao> 
+        
+         <ns29:listaDeStringsDeImpressao>
+            <ns29:palavra>%s</ns29:palavra>
+            <ns29:siginificado>Indica leitura de string</ns29:siginificado>       
+        </ns29:listaDeStringsDeImpressao> 
+        
+         <ns29:listaDeStringsDeImpressao>
+            <ns29:palavra>%f</ns29:palavra>
+            <ns29:siginificado>Indica leitura de float</ns29:siginificado>       
+        </ns29:listaDeStringsDeImpressao>  
+        
+        
+  
+    </ns29:stringsDeImpressao>
+    
+</ns29:stringsDeImpressao>

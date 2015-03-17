@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns29:palavasReservadas xmlns:jini="http://www.docner.com/jini/basic" xmlns:idf="http://www.docner.com/util/identifiable" xmlns:conf="http://www.docner.com/config" xmlns:persist="http://www.docner.com/persistancy/model" xmlns:cx="http://www.docner.com/cat/xml" xmlns:core="http://www.docner.com/cat/core" xmlns:cd="http://www.docner.com/cat/categorydefinition" xmlns:media="http://www.docner.com/cat/media" xmlns:adm="http://www.docner.com/cat/admin" xmlns:basic="http://www.docner.com/cat/basic" xmlns:cpm="http://www.docner.com/cat/persistancy/model" xmlns:ns13="http://www.docner.com/incrementor/model" xmlns:ns14="http://www.docner.com/incrementor/service" xmlns:ns15="http://www.docner.com/cat/basic/service" xmlns:ns16="http://www.docner.com/cat/categorydefinition/service" xmlns:ns17="http://www.docner.com/cat/xml/service" xmlns:scr="http://www.docner.com/web/cmd/service" xmlns:cmd="http://www.docner.com/web/cmd" xmlns:wms="http://www.docner.com/jini/webmail" xmlns:ns21="http://www.docner.com/auth/impl" xmlns:ns22="http://www.docner.com/auth/model" xmlns:ssp="http://www.docner.com/cat/sync/spider" xmlns:ppl="http://www.docner.com/cat/sync/spider/plugin" xmlns:ssm="http://www.docner.com/cat/sync/spider/model" xmlns:ns26="http://www.docner.com/cat/sync/spider/plugin/deployscript" xmlns:sss="http://www.docner.com/cat/sync/spider/service" xmlns:ns28="http://www.docner.com/cat/auth/model" xmlns:ns29="http://docner.com/showoff/model" xmlns:ns30="http://www.docner.com/util/bundle/model" xmlns:ns31="http://www.docner.com/cat/users/model" xmlns:ns32="http://docner.com/showoff/effect" xmlns:ns33="http://www.docner.com/jini/plugin" xmlns:ns34="http://www.docner.com/cat/view" idEffects="19" idStyleSheet="21" processing="unknown" modifiedat="2014-06-20T16:37:45.171-03:00">
+    <core:label>Palavras Reservadas do C</core:label>
+  
+    <ns29:palavasReservadas>
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>asm</ns29:palavra>
+            <ns29:siginificado>Indica instruções em assembly.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>auto</ns29:palavra>
+            <ns29:siginificado>Define a classe de armazenamento padrão, ou seja , a variável é criada quando a função é invocada e depois é destruída quando a função termina.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>break</ns29:palavra>
+            <ns29:siginificado>Comando para forçar a saída imediata dos comandos switch, for, while, e , do…while.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>case</ns29:palavra>
+            <ns29:siginificado>Utilizado dentro do comando switch para selecionar uma constante.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>char</ns29:palavra>
+            <ns29:siginificado>Tipo de dados utilizado para armazenar caracteres.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>const</ns29:palavra>
+            <ns29:siginificado>Impede que uma variável seja modificada, criando assim uma constante.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>continue</ns29:palavra>
+            <ns29:siginificado>Força a interrupção dos loops for , while , ou do…while fazendo com que passem para a próxima iteração.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>default</ns29:palavra>
+            <ns29:siginificado>É utilizado dentro de switch…case para tratar valores não definidos anteriormente nas opções case.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>do</ns29:palavra>
+            <ns29:siginificado>Estutura de repetição usada em conjunto com o while . O comando do…while faz com que os comandos do bloco a ser repetido sejam executados no mínimo uma vez.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>double</ns29:palavra>
+            <ns29:siginificado>Tipo de dados numérico de ponto flutuante com precisão dupla.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>else</ns29:palavra>
+            <ns29:siginificado>Indica um bloco de comandos a ser executado quando a condição do comando if for falsa.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>enum</ns29:palavra>
+            <ns29:siginificado>Tipo de dados definido pelo programador que permite a definição de constantes</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>extern</ns29:palavra>
+            <ns29:siginificado>Indica que uma variável foi declarada em outro arquivo.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>float</ns29:palavra>
+            <ns29:siginificado>Tipo de dados de ponto flutuante com precisão simples.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>for</ns29:palavra>
+            <ns29:siginificado>Estrutura de repetição que utiliza condições e contador.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>goto</ns29:palavra>
+            <ns29:siginificado>Comando que permite “saltar” incondicionalmente para uma posição do programa pré-deteminada.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>if</ns29:palavra>
+            <ns29:siginificado>Comando condicional que altera o fluxo do programa de acordo com uma condição que pode ser verdadeira ou falsa.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>int</ns29:palavra>
+            <ns29:siginificado>É o tipo de dados mais usado para armazenar valores inteiros.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>long</ns29:palavra>
+            <ns29:siginificado>É um tipo de dados usado para armazenar valores inteiros que possui precisão superior ao tipo int..</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>register</ns29:palavra>
+            <ns29:siginificado>Solicita o armazenamento diretamente nos registradores do processador.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>return</ns29:palavra>
+            <ns29:siginificado>Retorna um valor dentro de uma função ou força o abandono da mesma.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>short</ns29:palavra>
+            <ns29:siginificado>É o chamado inteiro curto. Armazena valores inteiros com precisão menor (apenas 2 bytes) do que o tipo int.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>signed</ns29:palavra>
+            <ns29:siginificado>Sinaliza que uma variável pode armazenar tanto valores positivos como negativos.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>sizeof</ns29:palavra>
+            <ns29:siginificado>Comando usado para retornar o tamanho em bytes de um determinado tipo de dados.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>static</ns29:palavra>
+            <ns29:siginificado>Comando que avisa ao compilador para reter o valor de uma determinada variável.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>struct</ns29:palavra>
+            <ns29:siginificado>Cria as chamadas estruturas ou seja registros.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>switch</ns29:palavra>
+            <ns29:siginificado>Comando de seleção usando em conjunto com o comando case, permite escolher entre várias opções.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>typedef</ns29:palavra>
+            <ns29:siginificado>É um comando modificador usado para criar novos nomes para tipos de dados.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>union</ns29:palavra>
+            <ns29:siginificado>Permite que um conjunto de variáveis partilhem o mesmo espaço na memória.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>unsigned</ns29:palavra>
+            <ns29:siginificado>Faz com que a variável apenas aceite valores positivos ou zero.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>void</ns29:palavra>
+            <ns29:siginificado>Comando que indica que a função não retorna nada ou que não tem parâmetros de entrada.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>volatile</ns29:palavra>
+            <ns29:siginificado>Indica que uma variável pode ser alterada.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+        
+        <ns29:listaDePalavrasReservadas>
+            <ns29:palavra>while</ns29:palavra>
+            <ns29:siginificado>Estrutura de repetição que executa enquanto uma condição é verdadeira.</ns29:siginificado>       
+        </ns29:listaDePalavrasReservadas>  
+  
+    </ns29:palavasReservadas>
+    
+</ns29:palavasReservadas>
